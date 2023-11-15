@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A55B3742B057FD50028D58F /* Agbalumo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A55B3722B057FD50028D58F /* Agbalumo-Regular.ttf */; };
+		5A55B3772B0580A60028D58F /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A55B3762B0580A60028D58F /* Lobster-Regular.ttf */; };
 		5A59213C2B042B280096C3EC /* CustomFontSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A59213B2B042B280096C3EC /* CustomFontSwiftUIApp.swift */; };
 		5A59213E2B042B280096C3EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A59213D2B042B280096C3EC /* ContentView.swift */; };
 		5A5921402B042B2B0096C3EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A59213F2B042B2B0096C3EC /* Assets.xcassets */; };
 		5A5921432B042B2B0096C3EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A5921422B042B2B0096C3EC /* Preview Assets.xcassets */; };
+		5A59214F2B0431670096C3EC /* Zeyada.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A59214C2B0431670096C3EC /* Zeyada.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A55B3722B057FD50028D58F /* Agbalumo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Agbalumo-Regular.ttf"; sourceTree = "<group>"; };
+		5A55B3762B0580A60028D58F /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
 		5A5921382B042B280096C3EC /* CustomFontSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFontSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A59213B2B042B280096C3EC /* CustomFontSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontSwiftUIApp.swift; sourceTree = "<group>"; };
 		5A59213D2B042B280096C3EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5A59213F2B042B2B0096C3EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A5921422B042B2B0096C3EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A59214C2B0431670096C3EC /* Zeyada.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zeyada.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,7 @@
 		5A59213A2B042B280096C3EC /* CustomFontSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5A5921492B0431670096C3EC /* fonts */,
 				5A59213B2B042B280096C3EC /* CustomFontSwiftUIApp.swift */,
 				5A59213D2B042B280096C3EC /* ContentView.swift */,
 				5A59213F2B042B2B0096C3EC /* Assets.xcassets */,
@@ -65,6 +72,16 @@
 				5A5921422B042B2B0096C3EC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5A5921492B0431670096C3EC /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5A55B3722B057FD50028D58F /* Agbalumo-Regular.ttf */,
+				5A55B3762B0580A60028D58F /* Lobster-Regular.ttf */,
+				5A59214C2B0431670096C3EC /* Zeyada.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +142,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A59214F2B0431670096C3EC /* Zeyada.ttf in Resources */,
+				5A55B3772B0580A60028D58F /* Lobster-Regular.ttf in Resources */,
 				5A5921432B042B2B0096C3EC /* Preview Assets.xcassets in Resources */,
 				5A5921402B042B2B0096C3EC /* Assets.xcassets in Resources */,
+				5A55B3742B057FD50028D58F /* Agbalumo-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +294,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CustomFontSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomFontSwiftUI/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +324,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CustomFontSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomFontSwiftUI/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
